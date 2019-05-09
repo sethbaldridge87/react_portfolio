@@ -1,33 +1,39 @@
-.App {
+body {
+  background: rgb(36, 36, 36);
+}
+nav {
+  background: rgb(78, 78, 78);
+}
+nav li a, nav a, nav .brand-logo {
+  color: rgb(255, 251, 40);
+}
+nav li a:hover {
+  color: rgb(78, 78, 78);
+  background: rgb(255, 251, 40);
+  transition: .5s;
+}
+.brand-logo {
+  margin-left: 10px;
+}
+.parallax-container {
+  height: 500px;
+}
+#img_greeter {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+}
+#circle_portrait {
+  height: 200px;
+}
+#section2 {
+  color: #fff;
+}
+#section2 h2 {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width:992px){
+  .brand-logo {
+    margin-left: 0px;
   }
 }
