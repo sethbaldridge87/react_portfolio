@@ -24,15 +24,27 @@ function Home() {
                         <p className="grey-text text-darken-3 lighten-3">My name is Seth! I am a web developer with 2+ years of experience creating front-end and back-end applications using modern coding languages. My current employer's website has seen increased traffic through SEO improvements, generating interactive apps, and more dynamic presentation.</p>
                     </div>
                 </div>
-                
             </div>
-            <div className="section rgb(78, 78, 78);" id="section2">
+            <div className="section" id="section2">
                 <div className="row container">
                     <h2>My Skills Include:</h2>
                     <div>
                         {skills.skills_array.map(data => (
-                            <div className="col"><h5>{data}</h5></div>
+                            <div className="col l2 m3 s4"><h5>{data}</h5></div>
                         ))}
+                    </div>
+                </div>
+            </div>
+            <div className="section white">
+                <div className="row container">
+                    <div className="col l4 s12">
+                    
+                    </div>
+                    <div className="col l4 s12">
+
+                    </div>
+                    <div className="col l4 s12">
+
                     </div>
                 </div>
             </div>

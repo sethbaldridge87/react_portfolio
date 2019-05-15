@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Train Schedule",
+        "description": "The user inputs a train name, destination, time of first departure, and frequency of arrivals. The input is dynamically added to the database and displayed instantly through a Firebase API. Using Moment.js, the time from the initial departure time and the present time are compared, and the time of the next arrival is calculated. The user can also see how many minutes away the next train is.",
+        "technologies": ["jQuery","Bootstrap","Firebase","Moment.js."],
+        "repo": "https://github.com/sethbaldridge87/train_schedule",
+        "link": "https://sethbaldridge87.github.io/train_schedule/"
+    },
+    {
+        "name": "Star Wars Battle Game",
+        "description": "Click battle game created using loops, arrays, and changing variables. Player selects a character and chooses opponents to fight until all of them are defeated. Wins and losses are both possible, depending on user input.",
+        "technologies": ["jQuery","Bootstrap"],
+        "repo": "https://github.com/sethbaldridge87/starwars_rpg",
+        "link": "https://sethbaldridge87.github.io/starwars_rpg/"
+    },
+    {
+        "name": "Quiz Game",
+        "description": "Timed quiz game that can be played again without a page refresh. Switch statement is used to reply to user input. Score is calculated.",
+        "technologies": ["jQuery","Bootstrap"],
+        "repo": "https://github.com/sethbaldridge87/quiz_game",
+        "link": "https://sethbaldridge87.github.io/quiz_game/"
+    },
+    {
+        "name": "Hangman Game",
+        "description": "Hangman game that responds to user keystrokes. Each round begins after a win or a loss, and wins and losses are recorded. Correctly guessed letters are displayed on the main lines, and incorrectly guessed letters are displayed to the side.",
+        "technologies": ["jQuery","Bootstrap"],
+        "repo": "https://github.com/sethbaldridge87/hangman",
+        "link": "https://sethbaldridge87.github.io/hangman/"
+    },
+    {
+        "name": "Giphy API",
+        "description": "Giphy API is accessed to display gif images related to input. Users can click on buttons to view gifs, or they can create new buttons to access even more gifs.",
+        "technologies": ["jQuery","Bootstrap","AJAX","API"],
+        "repo": "https://github.com/sethbaldridge87/gif_api",
+        "link": "https://sethbaldridge87.github.io/gif_api/"
+    },
+    {
+        "name": "Burger App",
+        "description": "User enters a new burger, which is stored in the database as 'uneaten.'' After clicking on the new burger's eaten button, it is moved to a column of 'eaten' burgers.",
+        "technologies": ["Express","MySQL","handlebars.js","jQuery","Materialize"],
+        "repo": "https://github.com/sethbaldridge87/burger_app",
+        "link": "https://github.com/sethbaldridge87/burger_app"
+    },
+    {
+        "name": "News Scraper",
+        "description": "Scrapes articles from video game review website IGN.com and saves them to a Mongo database. Also allows users to freely leave comments on each article and delete the comments, which are also saved in the database.",
+        "technologies": ["handlebars.js","Materialize","axios","Node.js","mongoose","MongoDB","jQuery"],
+        "repo": "https://github.com/sethbaldridge87/ign_scrape",
+        "link": "https://ign-news-scraper.herokuapp.com/"
+    },
+    {
+        "name": "Partner Finder",
+        "description": "Node based app that takes survey information and finds the closest match within a set of objects.",
+        "technologies": ["jQuery","Bootstrap","AJAX","Node.js"],
+        "repo": "https://github.com/sethbaldridge87/the-partner-finder",
+        "link": "https://dashboard.heroku.com/apps/the-partner-finder"
+    },
+    {
+        "name": "Book Nook",
+        "description": "MERN Stack app that scrapes data from the Google Books API. Users can then save a personal list of books, which they can also delete from.",
+        "technologies": ["Node.js","MongoDB","mongoose","Express","ReactJS","Materialize"],
+        "repo": "https://github.com/sethbaldridge87/book_nook",
+        "link": "https://the-book-nook.herokuapp.com/"
+    },
+    {
+        "name": "Cheat Day",
+        "description": "Website created for client to display products. Includes responsive image gallery, touch-responsive slider, Instagram API, nutrition API, order form that saves to Firebase, and several Bootstrap utilities. Will continue to improve as newer technologies are learned and more feedback from client is received. Team based project with two other developers.",
+        "technologies": ["Bootstrap","jQuery","Firebase","slick.js","Moment.js","Instagram API"],
+        "repo": "https://github.com/sethbaldridge87/cheat_day",
+        "link": "https://sethbaldridge87.github.io/cheat_day/"
+    },
+    {
+        "name": "Backend Amazon",
+        "description": "Node.js app using inquirer and MySQL Node packages. Links to and updates a SQL database",
+        "technologies": ["Node.js","inquirer","MySQL"],
+        "repo": "https://github.com/sethbaldridge87/bamazon",
+        "link": "(backend only)"
+    },
+    {
+        "name": "React Click Game",
+        "description": "A click-based memory game, in which the goal is to click on every character card without clicking on a card more than once. But be careful, the cards shuffle each time you click, so you have to remember carefully which one you clicked!",
+        "technologies": ["ReactJS","Materialize"],
+        "repo": "https://github.com/sethbaldridge87/react_click_game",
+        "link": "https://sethbaldridge87.github.io/react_click_game/"
+    }
+]
