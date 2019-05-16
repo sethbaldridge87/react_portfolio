@@ -1,5 +1,6 @@
 import React from 'react';
 import Skills from '../assets/skills.json';
+import Projects from '../assets/projects.json';
 
 function Home() {
     const skills = Skills;
@@ -7,7 +8,7 @@ function Home() {
         <div>
             <div className="parallax-container">
                 <div className="parallax">
-                    <img src="http://sethsweb.com/images/background7.jpg" alt="portrait" />
+                    <img src="images/background7.jpg" alt="portrait" />
                 </div>
                 <div id="img_greeter" className="container">
                     <h1>Welcome to My Corner of the Web!</h1>
@@ -17,7 +18,7 @@ function Home() {
             <div className="section white">
                 <div className="row container">
                     <div className="col s12 m5 l4 center-align">
-                        <img id="circle_portrait" src="http://sethsweb.com/images/circle_portrait.png" alt="Circle Portrait" />
+                        <img id="circle_portrait" src="images/circle_portrait.png" alt="Circle Portrait" />
                     </div>
                     <div className="col s12 m7 l8">
                         <h2 className="header">Hello!</h2>
@@ -35,16 +36,31 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <div className="section white">
+            <div className="section white" id="section3">
+                <div className="row">
+                    <h2>Projects</h2>
+                </div>
                 <div className="row container">
                     <div className="col l4 s12">
-                    
+                        <h4>{Projects[11].name}</h4>
+                        <p>{Projects[11].description}</p>
+                        <p>{(Projects[11].technologies || []).join(", ")}</p>
+                        <a href={Projects[11].repo}><p>Link to repo:</p></a>
+                        <a href={Projects[11].link}><p>Deployed link:</p></a>
                     </div>
                     <div className="col l4 s12">
-
+                        <h4>{Projects[8].name}</h4>
+                        <p>{Projects[8].description}</p>
+                        <p>{(Projects[8].technologies || []).join(", ")}</p>
+                        <a href={Projects[8].repo}><p>Link to repo:</p></a>
+                        <a href={Projects[8].link}><p>Deployed link:</p></a>
                     </div>
                     <div className="col l4 s12">
-
+                        <h4>{Projects[6].name}</h4>
+                        <p>{Projects[6].description}</p>
+                        <p>{(Projects[6].technologies || []).join(", ")}</p>
+                        <a href={Projects[6].repo}><p>Link to repo:</p></a>
+                        <a href={Projects[6].link}><p>Deployed link:</p></a>
                     </div>
                 </div>
             </div>

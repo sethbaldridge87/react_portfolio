@@ -6,6 +6,7 @@ import History from './pages/History';
 import References from './pages/References';
 import Contact from './pages/Contact';
 import TopNav from './components/TopNav';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/references" component={References} />
         <Route exact path="/contact" component={Contact} />
       </Switch>
+      <Footer />
     </Router>
   );
 }

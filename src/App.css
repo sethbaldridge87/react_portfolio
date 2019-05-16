@@ -2,7 +2,7 @@ body {
   background: rgb(36, 36, 36);
 }
 nav {
-  background: rgb(78, 78, 78);
+  background: rgb(36, 36, 36);
 }
 nav li a, nav a, nav .brand-logo {
   color: rgb(255, 251, 40);
@@ -29,7 +29,13 @@ nav li a:hover {
 #section2 {
   color: #fff;
 }
-#section2 h2 {
+#section2 h2, #section3 h2, #section3 h4 {
+  text-align: center;
+}
+#footer img {
+  height: 150px;
+}
+#current_year {
   text-align: center;
 }
 @media screen and (max-width:992px){
