@@ -1,0 +1,92 @@
+[
+    {
+        "name":"Joshua Green",
+        "title":"Web Developer",
+        "company":"Firetoss",
+        "address":"332 E 500 S, Salt Lake City, UT 84111",
+        "phone":"801-901-8408",
+        "email":"josh@firetoss.com",
+        "type":"professional"
+    },
+    {
+        "name":"Scott Petersen",
+        "title":"Manager",
+        "company":"Batteries Plus Bulbs",
+        "address":"293 E 3300 S, Salt Lake City, UT 84115",
+        "phone":"801-461-4988",
+        "email":"scott@batteriesplusslc.com",
+        "type":"professional"
+    },
+    {
+        "name":"Mark A. Magleby",
+        "title":"Director",
+        "company":"BYU Museum of Art",
+        "address":"492 MOA, Brigham Young University, Provo, UT 84602",
+        "phone":"801-422-8282",
+        "email":"mark_magleby@byu.edu",
+        "type":"professional"
+    },
+    {
+        "name":"Jeff Lambson",
+        "title":"Curator of Contemporary Art",
+        "company":"BYU Museum of Art",
+        "address":"472 MOA, Brigham Young University, Provo, UT 84602",
+        "phone":"801-422-8052",
+        "email":"jeffclambson@gmail.com",
+        "type":"professional"
+    },
+    {
+        "name":"Ryan Olsen",
+        "title":"President",
+        "company":"LT Tours",
+        "address":"Las Vegas, NV",
+        "phone":"702-476-0349",
+        "email":"",
+        "type":"professional"
+    },
+    {
+        "name":"Winston Kyan",
+        "title":"Assistant Professor of Art History",
+        "company":"University of Utah",
+        "address":"375 S. 1530 E., Rm 161, University of Utah, Salt Lake City, UT 84112",
+        "phone":"801-585-0323",
+        "email":"winston.kyan@utah.edu",
+        "type":"academic"
+    },
+    {
+        "name":"Mamiko Suzuki",
+        "title":"Assistant Professor of Languages and Literature",
+        "company":"University of Utah",
+        "address":"255 S. Central Campus Dr., Rm 1400, University of Utah, Salt Lake City, UT 84112",
+        "phone":"801-581-7253",
+        "email":"m.c.suzuki@utah.edu",
+        "type":"academic"
+    },
+    {
+        "name":"Michael J. Call",
+        "title":"Assistant Professor of Humanities",
+        "company":"Brigham Young University",
+        "address":"3039 JFSB, Brigham Young University, Provo, UT",
+        "phone":"801-422-1616",
+        "email":"michael_j_call@byu.edu",
+        "type":"academic"
+    },
+    {
+        "name":"Lauri Haddock",
+        "title":"Adjunct Faculty of Humanities",
+        "company":"Brigham Young University",
+        "address":"3010 JKB, Brigham Young University, Provo, UT",
+        "phone":"801-785-0220",
+        "email":"lh3131@aol.com",
+        "type":"academic"
+    },
+    {
+        "name":"Charlotte A. Stanford",
+        "title":"Associate Professor of Humanities",
+        "company":"Brigham Young University",
+        "address":"3047 JFSB, Brigham Young University, Provo, UT",
+        "phone":"801-422-4604",
+        "email":"charlotte_Stanford@byu.edu",
+        "type":"academic"
+    }
+]
