@@ -1,11 +1,38 @@
 [
     {
-        "name":"",
-        "location":"",
-        "degree":"",
-        "major":"",
-        "years":"",
-        "GPA":""
-
+        "name":"University of Utah",
+        "location":"Sandy, UT",
+        "degree":"Certificate",
+        "major":"Web Development",
+        "years":"2018-2019",
+        "GPA":"N/A",
+        "highlights":["React","MongoDB","Express","Node.js"]
+    },
+    {
+        "name":"Salt Lake Community College",
+        "location":"Salt Lake City, UT",
+        "degree":"Certificate",
+        "major":"Web Programming",
+        "years":"2016",
+        "GPA":"N/A",
+        "highlights":["JavaScript","jQuery","PHP","MySQL","Photoshop"]
+    },
+    {
+        "name":"University of Utah",
+        "location":"Salt Lake City, UT",
+        "degree":"Master of Arts",
+        "major":"Art History",
+        "years":"2013-2015",
+        "GPA":"3.7",
+        "highlights":["Teaching Assistant","Research trip to Japan","Master's Thesis"]
+    },
+    {
+        "name":"Brigham Young University",
+        "location":"Provo, UT",
+        "degree":"Bachelor of Arts",
+        "major":"Humanities (minor in Japanese)",
+        "years":"2009-2012",
+        "GPA":"3.6",
+        "highlights":["Teaching Assistant","Academic Scholarship","Studied abroad in Japan","Internship at the Smithsonian"]
     }
 ]
