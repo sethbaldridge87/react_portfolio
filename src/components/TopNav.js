@@ -22,6 +22,7 @@ function TopNav() {
             <ul className="right hide-on-med-and-down">
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
+                <li><a href="/education">Education</a></li>
                 <li><a href="/history">Work History</a></li>
                 <li><a href="/references">References</a></li>
                 <li>
@@ -35,6 +36,7 @@ function TopNav() {
     <ul className="sidenav" id="mobile-demo">
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
+        <li><a href="/education">Work History</a></li>
         <li><a href="/history">Work History</a></li>
         <li><a href="/references">References</a></li>
         <li><a className="dropdown-trigger" href="#!" data-target="dropdown2">Portfolio<i className="material-icons right">arrow_drop_down</i></a></li>
