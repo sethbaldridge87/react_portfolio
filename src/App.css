@@ -18,6 +18,9 @@ nav li a:hover {
 .parallax-container {
   height: 500px;
 }
+#dropdown1 {
+  width: 155px !important;
+}
 #img_greeter {
   color: #fff;
   text-align: center;
@@ -29,14 +32,17 @@ nav li a:hover {
 #section2 {
   color: #fff;
 }
-#section2 h2, #section3 h2, #section3 h4, h1 {
+#section2 h2, #section3 h2, #section3 h4, h1, h2 {
   text-align: center;
 }
 #footer img {
-  height: 150px;
+  height: 100px;
 }
 #current_year {
   text-align: center;
+}
+#about_section img {
+  height: 400px;
 }
 @media screen and (max-width:992px){
   .brand-logo {

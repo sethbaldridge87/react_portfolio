@@ -5,6 +5,7 @@ function History() {
     return (
         <div className="white container-fluid">
             <h1>Work History</h1>
+            <hr />
             <div className="container">
                 {work_history.map(data => (
                     <div className="row">
