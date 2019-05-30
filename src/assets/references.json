@@ -45,6 +45,15 @@
         "type":"professional"
     },
     {
+        "name":"Jonathan Bejarano",
+        "title":"Coding Bootcamp Instructor",
+        "company":"University of Utah",
+        "address":"https://www.linkedin.com/in/jonathan-bejarano-27320840/",
+        "phone":"385-208-6735",
+        "email":"jbejar86@gmail.com",
+        "type":"academic"
+    },
+    {
         "name":"Winston Kyan",
         "title":"Assistant Professor of Art History",
         "company":"University of Utah",
