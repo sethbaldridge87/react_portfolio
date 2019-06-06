@@ -5,7 +5,6 @@ import About from './pages/About';
 import Education from './pages/Education';
 import History from './pages/History';
 import References from './pages/References';
-import Contact from './pages/Contact';
 import TopNav from './components/TopNav';
 import Footer from './components/Footer';
 import './App.css';
@@ -20,7 +19,6 @@ function App() {
         <Route exact path="/education" component={Education} />
         <Route exact path="/history" component={History} />
         <Route exact path="/references" component={References} />
-        <Route exact path="/contact" component={Contact} />
       </Switch>
       <Footer />
     </Router>

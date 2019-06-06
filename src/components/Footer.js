@@ -3,6 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <div className="section white" id="footer">
+      <hr />
       <div className="row">
         <div className="col l4 center-align">
           <a href="https://www.facebook.com/seth.r.baldridge"><img src="images/facebook-square-brands.svg" alt="Facebook" /></a>
@@ -16,6 +17,7 @@ export default function Footer() {
       </div>
       <div className="row" id="current_year">
         <p>&copy;sethsweb.com <span></span></p>
+        <p><b>sethbaldridge87@gmail.com</b></p>
       </div>
     </div>
   )
