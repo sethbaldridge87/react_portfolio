@@ -3,7 +3,7 @@ import references from '../assets/references.json';
 
 function References() {
     return (
-        <div className="white container-fluid">
+        <div className="container-fluid">
             <h1>References</h1>
             <hr />
             <h2>Professional</h2>

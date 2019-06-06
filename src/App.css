@@ -2,7 +2,7 @@ body {
   background: #fff;
 }
 nav {
-  background: rgb(36, 36, 36);
+  background: rgb(88, 87, 87);
 }
 nav li a, nav a, nav .brand-logo {
   color: rgb(255, 251, 40);
@@ -30,8 +30,8 @@ nav li a:hover {
   height: 200px;
 }
 #section2 {
-  color: #fff;
-  background-color: rgb(36, 36, 36);
+  color: rgb(255, 251, 40);
+  background: rgb(88, 87, 87);
 }
 #section2 h2, #section3 h2, #section3 h4, h1, h2 {
   text-align: center;
